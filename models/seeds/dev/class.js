@@ -9,17 +9,17 @@ exports.seed = function(knex) {
         {
           name: 'Teach SQL',
           description: 'I will teach you...',
-          personID: 2
+          customerID: 2
         },  
         {
           name: 'Teach JAVA',
           description: 'I will teach you...',
-          personID: 3
+          customerID: 3
         },  
         {
           name: 'Teach C#',
           description: 'I will teach you...',
-          personID: 3
+          customerID: 3
         },  
       ]);
     });

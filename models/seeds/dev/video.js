@@ -9,17 +9,17 @@ exports.seed = function(knex) {
         {
           name: 'What is a Database',
           path: `C:/fake_path/video1.avi`,
-          personID:'2'
+          customerID:'2'
         },
         {
           name: 'How to create One',
           path: `C:/fake_path/video1.avi`,
-          personID:'3'
+          customerID:'3'
         },
         {
           name: 'Why create a DB',
           path: `C:/fake_path/video1.avi`,
-          personID:'2'
+          customerID:'2'
         },
       ]);
     });
