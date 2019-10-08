@@ -12,7 +12,7 @@ module.exports = {
       directory: './models/migrations'
     },
     seeds: {
-        directory: './models/seeds'
+        directory: './models/seeds/dev'
     },
     useNullAsDefault: true
   },
