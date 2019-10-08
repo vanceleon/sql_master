@@ -7,7 +7,7 @@ exports.up = function(knex) {
       .references('id')
       .inTable('customers');
     tbl
-      .foreign('class')
+      .foreign('classID')
       .notNullable()
       .references('id')
       .inTable('classes');
